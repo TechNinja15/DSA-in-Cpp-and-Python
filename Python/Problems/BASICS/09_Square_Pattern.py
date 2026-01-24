@@ -150,3 +150,23 @@ Q10. for  n=4 Example :
 #         print(ch,end="")
 #         ch= chr(ord(ch)+1)
 #     print()
+
+
+'''
+Q11 for n=4 Example :
+    A
+    BA
+    CBA
+    DCBA
+'''
+
+# n = int(input("Enter a Number : "))
+# ch = ord('A')
+
+# for i in range(n):
+#     for j in range(ch, ord('A') - 1, -1):
+#         print(chr(j), end="")
+#     print()
+#     ch += 1
+
+

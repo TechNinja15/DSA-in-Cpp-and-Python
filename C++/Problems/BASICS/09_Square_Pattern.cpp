@@ -259,8 +259,8 @@ Q11 for n=4 Example :
 //     cout<<"Enter a Number : ";
 //     cin>>n;
 //     char startChar = 'A';
-//     for (int i = 1; i <= n; ++i) {
-//         for (int j = startChar; j >= 'A'; --j) {
+//     for (int i = 1; i <= n; i++) {
+//         for (int j = startChar; j >= 'A'; j--) {
 //             cout << (char)j;
 //         }
 //         cout << "\n";
@@ -268,3 +268,4 @@ Q11 for n=4 Example :
 //     }
 //     return 0;
 // }
+
