@@ -193,11 +193,10 @@ Q8. for n = 4 Example :
 // }
 
 '''
-Q9. for  n=4 Example :
+Q9. for  n=3 Example :
     1
     23
     456
-    78910
 '''
 
 // #include<iostream>
