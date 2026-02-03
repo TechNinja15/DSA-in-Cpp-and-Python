@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/harsh/Downloads/DSA/DSA-in-Cpp-and-Python/C++/Problems/BASICS",
-      "program": "c:/Users/harsh/Downloads/DSA/DSA-in-Cpp-and-Python/C++/Problems/BASICS/build/Debug/outDebug",
+      "cwd": "c:/Users/harsh/Downloads/DSA/DSA-in-Cpp-and-Python/C++",
+      "program": "c:/Users/harsh/Downloads/DSA/DSA-in-Cpp-and-Python/C++/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

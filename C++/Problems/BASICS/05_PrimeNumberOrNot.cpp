@@ -10,12 +10,12 @@ int main(){
             count = count + 1;
         }
     }
-if(count == 2){
-    cout<<"This is a Prime Number";
-}
-else{
-    cout<<"This is not a Prime Number";
-}
+    if(count == 2){
+        cout<<"This is a Prime Number";
+    }
+    else{
+        cout<<"This is not a Prime Number";
+    }
 
-return 0;
+    return 0;
 }
