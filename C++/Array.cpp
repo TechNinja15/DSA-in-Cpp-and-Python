@@ -81,3 +81,22 @@
 //     cout<<"The largest number is : "<<max<<endl;
 // }
 
+
+// ------------------------ Finding smallest and largest using Function----------------------
+
+// max function
+
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int main(){
+    int arr[]= {5,18,7,9,15};
+    int size = sizeof(arr)/sizeof(int);
+    int max = *max_element(arr, arr + size);
+    int min = *min_element(arr, arr + size);
+
+    cout<<"The largest number is : "<<max<<endl;
+    cout<<"The smallest number is : "<<min<<endl;
+
+    return 0;
+}
