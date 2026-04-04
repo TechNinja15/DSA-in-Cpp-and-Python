@@ -43,8 +43,10 @@ int main(){
     for(char i : vec2){
         cout<<i<<" ";
     }
+    cout<<"Size of a Vector is : "<<vec2.size()<<endl;
     return 0;
 }
 
 // NOTE : To print all elements vector uses loops
+
 
