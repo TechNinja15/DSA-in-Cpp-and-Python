@@ -163,36 +163,162 @@
 
 //--------------------------------Reverse an Array-------------------------------------------
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-void reverseArr(int arr[], int size){
-    int start = 0, end = size-1;
+// void reverseArr(int arr[], int size){
+//     int start = 0, end = size-1;
 
-    while( start <= end){
-        swap(arr[start], arr[end]);
-        start++;
-        end--;
-    }
-}
+//     while( start <= end){
+//         swap(arr[start], arr[end]);
+//         start++;
+//         end--;
+//     }
+// }
 
-int main(){
-    int arr[]={4,2,7,8,1,2,5};
-    int size = sizeof(arr)/sizeof(int);
+// int main(){
+//     int arr[]={4,2,7,8,1,2,5};
+//     int size = sizeof(arr)/sizeof(int);
     
-    cout<<"Original Array : ";
-    for(int i=0; i<size; i++){
-        cout<<arr[i]<<" ";
-    }
-    cout<<endl;
+//     cout<<"Original Array : ";
+//     for(int i=0; i<size; i++){
+//         cout<<arr[i]<<" ";
+//     }
+//     cout<<endl;
 
-    reverseArr(arr,size);
+//     reverseArr(arr,size);
 
-    cout<<"Reversed Array : ";
-    for(int i=0; i<size; i++){
-        cout<<arr[i]<<" ";
-    }
-    cout<<endl;
+//     cout<<"Reversed Array : ";
+//     for(int i=0; i<size; i++){
+//         cout<<arr[i]<<" ";
+//     }
+//     cout<<endl;
 
-    return 0;
-}
+//     return 0;
+// }
+
+
+
+// Q1. WAF to sum and product all the elements of an Array
+
+// #include<iostream>
+// using namespace std;
+
+// void sumAndProduct(int arr[], int size){
+//     int sum = 0;
+//     int product = 1;
+
+//     for(int i=0; i<size; i++){
+//         sum = sum + arr[i];
+//         product = product * arr[i];
+//     }
+//     cout<<"Sum = "<< sum <<" and Product = "<< product<<endl;
+// }
+
+// int main(){
+//     int arr[]= {4,2,7,8,1,2,5};
+//     int size = sizeof(arr)/sizeof(int);
+//     sumAndProduct(arr, size);
+
+//     return 0;
+// }
+
+
+
+//Q2. WAF to swap min and max number of an Array
+
+// #include<iostream>
+// #include<algorithm>
+// using namespace std;
+
+// void swapMinMax(int arr[], int size){
+//     if(size<=1) return;
+
+//     int minIdx = 0;
+//     int maxIdx = 0;
+
+//     for(int i=0; i<size; i++){
+//         if(arr[i]<arr[minIdx]){   // This checks arr[0] (4) is smaller than arr[minIdx] (4)
+//             minIdx = i;           // And than if the condition gets true it stores i's value in minIdx
+//         }
+
+//         if(arr[i]>arr[maxIdx]){
+//             maxIdx = i;
+//         }
+//     }
+
+    // Now we will Swap the min and max by creaing a temp variable
+
+//     int temp = arr[minIdx];
+//     arr[minIdx] = arr[maxIdx];
+//     arr[maxIdx] = temp;
+
+// }
+
+// int main(){
+//     int arr[]={4,2,7,8,1,2,5};
+//     int size = sizeof(arr)/sizeof(int);
+//     swapMinMax(arr, size);
+
+//     for(int i=0; i<size; i++){
+//         cout<<arr[i]<<" ";
+//     }
+//     cout<<"\n";
+//     return 0;
+// }
+
+//Q3. WAF to print all unique numbers in an array
+
+// #include<iostream>
+// using namespace std;
+
+// void unique(int arr[], int size){
+//     for(int i=0; i<size; i++){
+//         int count = 0;
+//         for(int j=0; j<size; j++){
+//             if(arr[i]==arr[j]){
+//                 count++;
+//             }
+//         }
+//         if(count == 1){
+//             cout<< arr[i]<<" ";
+//         }
+//     }
+// }
+
+// int main(){
+//     int arr[]= {1,2,3,1,2,3,4};
+//     int size = sizeof(arr)/sizeof(int);
+//     cout<<"Unique Elements : ";
+//     unique(arr, size);
+//     cout<<"\n"; 
+//     return 0;
+// }
+
+
+// Q4. WAF to intersect 2 array and print common elements
+
+// #include<iostream>
+// using namespace std;
+
+// void intersect(int arr1[], int size1, int arr2[], int size2){
+//     cout<<"The Common Elements are : ";
+//     for(int i=0; i<size1; i++){
+//         for(int j=0; j<size2; j++){
+//             if(arr1[i]==arr2[j]){
+//                 cout<<arr1[i]<<" ";
+//             }
+//         }
+//     }
+// }
+
+// int main(){
+//     int arr1[]={1,2,3,4,5};
+//     int arr2[] = {2,4,6,8,10};
+//     int size1 = sizeof(arr1)/sizeof(int);
+//     int size2 = sizeof(arr2)/sizeof(int);
+
+//     intersect(arr1, size1, arr2, size2);
+//     cout<<"\n";
+//     return 0;
+// }
