@@ -94,22 +94,22 @@
 
 // Size is the number of elements in the vector
 // Capacity is the number of elements the vector can hold
-#include<iostream>
-#include<vector>
-using namespace std;
-int main(){
-vector <int> vec;
-vec.push_back(1); // Size = 1, Capacity = 1
-vec.push_back(2); // Size = 2, Capacity = 2
-vec.push_back(3); // Size = 3, Capacity = 4
-vec.push_back(4); // Size = 4, Capacity = 4
-vec.push_back(5); // Size = 5, Capacity = 8
+// #include<iostream>
+// #include<vector>
+// using namespace std;
+// int main(){
+// vector <int> vec;
+// vec.push_back(1); // Size = 1, Capacity = 1
+// vec.push_back(2); // Size = 2, Capacity = 2
+// vec.push_back(3); // Size = 3, Capacity = 4
+// vec.push_back(4); // Size = 4, Capacity = 4
+// vec.push_back(5); // Size = 5, Capacity = 8
 
-int size = vec.size();
-int capacity = vec.capacity();
+// int size = vec.size();
+// int capacity = vec.capacity();
 
-cout<<"Size of vector is : "<<size<<endl;
-cout<<"Capacity of vector is : "<<capacity<<endl;
+// cout<<"Size of vector is : "<<size<<endl;
+// cout<<"Capacity of vector is : "<<capacity<<endl;
 
-}   
-// NOTE : Every Time When we push_back() in vector and if the vector is full then it will double its capacity
+// }   
+// // NOTE : Every Time When we push_back() in vector and if the vector is full then it will double its capacity
